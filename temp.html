@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .icons img {
+      width: 70px;
+      margin: 0 10px;
+    }
+
+    h1 {
+      color: #333;
+      margin: 25px 0 15px;
+    }
+
+    button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    #result {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #e2e3e5;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="icons">
+    <img src="sun.jpg" alt="Sun">
+    <img src="./pngtree-sun-behind-clouds-illustration-png-image_13746868.avif" alt="Cloud">
+  </div>
+
+  <h1>Convert Celsius to Fahrenheit</h1>
+
+  <button onclick="convertTemp()">Convert Celsius to Fahrenheit</button>
+
+  <div id="result"></div>
+
+  <script src="temp.js"></script>
+</body>
+</html>
