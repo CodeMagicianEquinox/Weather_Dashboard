@@ -1,0 +1,1 @@
+In this project I utilize some Javascript and HTML to develop a temperature converter. It converts the temperature from Celsius to Fahrenheit and vice versa, after prompting the user for their input (C or F and the number to be converted).
